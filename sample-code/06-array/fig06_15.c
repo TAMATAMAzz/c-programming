@@ -36,7 +36,7 @@ int main(void)
 		}
 	}
 
-	puts("\nData items in ascending order");
+	puts("\nData items in ascending order \n");
 
 	// output sorted array
 	for (size_t i = 0; i < SIZE; ++i) {
