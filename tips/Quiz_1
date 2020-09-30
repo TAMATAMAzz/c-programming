@@ -1,0 +1,17 @@
+//Question. Enter Principle, rate, time print simple interest.
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,interest;
+    printf("Solve Simple Interest\t     value\n");
+    printf("Principle\t\t\t");
+    scanf("%d",&a);
+    printf("Rate\t\t\t\t");
+    scanf("%d",&b);
+    printf("Time\t\t\t\t");
+    scanf("%d",&c);
+    printf("Simple Interest\t\t=\t");
+    interest=(a*b*c)/100;
+    printf("%d",interest);
+}
